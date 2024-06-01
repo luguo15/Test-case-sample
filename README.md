@@ -3,9 +3,9 @@ Test cases for shopping carts
 QA: Lu Guo
 
 
-1. Function testing
+**1. Function testing**
 
-(1) Adding items: 
+(1) Adding items:
 Test adding a single item to the cart, the shopping cart displays the item correctly.
 Test adding the same item multiple times on the produce display page, then check the number of items correct in the shopping cart.
 Test adding multiple items to the chart, all the items are in the shopping cart.
@@ -47,27 +47,35 @@ Test adding items to the cart, then close the application, and reopen the applic
 Test the maximum quantity of a single item that can be added to carts. When the quantity is equal to the total quantity in stock, the user can't add more, and the page should send a friendly notice.
 When the total number of items in the cart is equal to the maximum limit, the user can't add any item to the cart, and the page should send a friendly notice.
 
-2. Abnormal testing
+**2. Abnormal testing**
+
 When an item is out of stock, the user can't add this item to the cart, and the page should send a friendly notice.
 
 Test adding items to the cart in a weak network environment, the item should be added to the cart with more time, or can't be added to the cart.
 Test adding items to the cart in an offline environment. The item can't be added to the cart.
 
-3. API testing
+**3. API testing**
+
 Test the logs are uploaded correctly when adding or removing items from the cart, or updating quantity.
 
-4. Load testing
+**4. Load testing**
+
 Test a large number of visits to the carts simultaneously for an extended period.
 
-5. Automation testing
+**5. Automation testing**
+
 Write automation testing cases.
 
-6. Safety testing
+**6. Safety testing**
+
 Test no illegal or discriminatory information is displayed on the cart page.
 
-7. Compatibility testing
+**7. Compatibility testing**
+
 Test the cart can be displayed and used correctly across different versions of phones, systems, or browsers.
 
-8. Aging-friendly testing
+**8. Aging-friendly testing**
+
 Testing the UI is correct when the cart is displayed on a phone that sets extra large font.
+
 ![image](https://github.com/luguo15/Test-case-sample/assets/112709254/f698aceb-cef8-485f-ae35-d69c4d453158)
